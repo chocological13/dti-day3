@@ -339,6 +339,8 @@ body {
     font-weight: 600;
     line-height: 18.62px;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 /* footer */
