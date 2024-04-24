@@ -1,0 +1,168 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-sect {
+    flex-basis: auto;
+    width: 33%;
+    background-color: #c4c4c4;
+    /* font */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.middle {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.register {
+    line-height: 50px;
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#heart {
+    width: 12px;
+    height: 12px;
+}
+
+.shop {
+    flex: 1;
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+#cart {
+    width: 12px;
+    height: 12px;
+}
+
+/* Heading */
+
+.heading {
+    text-align: center;
+    font-family: 'Modern No. 20', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 51px;
+}
+
+/* Menu */
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    font-family: 'Modern No. 20', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    flex: 1;
+}
+
+#wahmen {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+/* text-container */
+
+.text-container {
+    width: 30%;
+    margin: 20px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-item {
+    flex: 1;
+}
+
+.text-top {
+    font-family: 'Modern No. 20', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 100;
+}
+
+.text-mid {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.link-bot {
+    width: 224px;
+    height: 57px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+#link-bot {
+    text-decoration: none;
+    color: black;
+}
+
+/* New Arrivals */
+
+.new-arrivals {
+    width: 90%;
+    margin: 20px auto 20px auto;
+}
+
+.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.new-arrivals-pics {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pics-item {
+    flex: 1;
+}
+
+.new-arrivals-img {
+    width: 20%;
+}
