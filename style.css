@@ -90,6 +90,11 @@ body {
     flex: 1;
 }
 
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
 #wahmen {
     width: 90%;
     height: auto;
